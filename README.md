@@ -1,4 +1,4 @@
-# CVE-2024-57391: Command Injection in GL-iNet GL-AXT1800 Router
+# Command Injection in GL-iNet GL-AXT1800 Router
 
 ## Executive Summary
 
