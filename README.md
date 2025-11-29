@@ -6,7 +6,7 @@
 |-------|---------|
 | **Vendor** | GL.iNet |
 | **Product** | GL-AXT1800 (Slate AX) |
-| **Firmware** | <= 4.6.8 |
+| **Firmware** | 4.2.0, 4.6.4, 4.6.8 |
 | **Author** | Aleksa Zatezalo |
 | **Date** | November 2025 |
 
