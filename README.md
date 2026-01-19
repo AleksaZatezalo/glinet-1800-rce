@@ -199,9 +199,7 @@ glinet_pwn.py
 | 2025-11-16 | Vulnerabilities discovered |
 | 2025-11-24 | Vendor contacted via security@gl-inet.com |
 | 2025-11-24 | Vendor acknowledged receipt |
-| 2025-XX-XX | CVE IDs assigned |
-| 2025-XX-XX | Public disclosure |
-
+| 2026-01-09 | CVE IDs assigned |
 ---
 
 ## References
