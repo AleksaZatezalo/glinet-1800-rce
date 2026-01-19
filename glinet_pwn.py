@@ -3,8 +3,8 @@
 GL.iNet Router Exploit Chain
 Combines authentication bypass (brute-force) with authenticated RCE.
 
-CVE-XXXX-XXXXX: Authentication Bypass via Unrestricted Brute-Force
-CVE-XXXX-XXXXX: Authenticated Command Injection in Plugin Handler
+CVE-2025-67090: Authentication Bypass via Unrestricted Brute-Force
+CVE-2025-67089: Authenticated Command Injection in Plugin Handler
 
 Affected: GL-AXT1800 (Slate AX) firmware <= 4.6.8
 Author: Aleksa Zatezalo
