@@ -12,7 +12,7 @@
 
 ---
 
-## CVE-XXXX-XXXXX: Authentication Bypass via Unrestricted Brute-Force
+## CVE-2025-67090: Authentication Bypass via Unrestricted Brute-Force
 
 ### Description
 
@@ -38,7 +38,7 @@ luci_username=root&luci_password=<attempt>
 
 ---
 
-## CVE-XXXX-XXXXX: Authenticated Command Injection in Plugin Handler
+## CVE-2025-67089: Authenticated Command Injection in Plugin Handler
 
 ### Description
 
