@@ -27,7 +27,4 @@ if [ -f "$target" ]; then
         head -c 200 "$target" | hexdump -C
 else
         echo "[-] Failed — file not created (race lost or script changed)"
-
-else
-    die "Exploit failed - race lost or opkg-call not triggered"
 fi
